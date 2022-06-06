@@ -18,9 +18,11 @@ Quality Assurance Engineer with commercial experience in testing. My working bac
 * VSCode
 * Scrum
 ### Code Examples:
+```
 function multiply(a, b){
   return a * b
 }
+```
 ### Work Experience:
 * 02.2020-07.2020 QA engineer in EPAM systems
 * 07.2020-04.2021 QA engineer in Fenomen games
