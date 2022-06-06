@@ -1,4 +1,4 @@
-# Katsiaryna Razhkova ![Picture](C:\Users\katsiaryna.razhkova\AppData\Local\npm-cache\_logs\2022-05-10T11_01_01_766Z-debug-0.logs)
+# Katsiaryna Razhkova ![Picture](https://i.ibb.co/Dky14R1/4-BCDF842-A460-4-FB2-BF44-AC072-B3-D0-CA2.jpg)
 ### Contacts: 
 * Phone: +375297414408
 * Email: Neshtochko@gmail.com
