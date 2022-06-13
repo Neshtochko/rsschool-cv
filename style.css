@@ -1,1 +1,58 @@
-body {margin: 0 auto}
+@font-face {
+    font-family: "Abel-Regular";
+    src: url("assets/fonts/Abel-Regular.ttf");
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: Abel-Regular;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #a3c2aa;
+}
+#header {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #a3c2aa;
+}
+#main {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+.left, .right {
+    float: left;
+    height: 100%;
+    width: 10%;    
+    background-color: #a3c2aa;
+}
+.center {
+    float: left;
+    height: 100%;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #f2f7f4;
+}
+.photo-cv {
+    left: 0;
+    padding: 60px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#footer {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 5%;
+    width: 100%;
+    background-color: #a3c2aa;
+    color: #fff;
+}
