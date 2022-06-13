@@ -2,15 +2,18 @@
     font-family: "Abel-Regular";
     src: url("assets/fonts/Abel-Regular.ttf");
 }
+
 html {
     height: 100%;
 }
+
 body {
     font-family: Abel-Regular;
     margin: 0 auto;
     height: 100%;
     background-color: #a3c2aa;
 }
+
 #header {
     margin: 0;
     padding: 0;
@@ -18,41 +21,84 @@ body {
     width: 100%;
     background-color: #a3c2aa;
 }
+
 #main {
     margin: 0;
     padding: 0;
     height: 100%;
     width: auto;
 }
-.left, .right {
+
+.left,
+.right {
     float: left;
     height: 100%;
-    width: 10%;    
+    width: 25%;
     background-color: #a3c2aa;
 }
+
 .center {
     float: left;
-    height: 100%;
-    width: 80%;
+    height: fit-content;
+    width: 50%;
     border-radius: 15px;
     background-color: #f2f7f4;
 }
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
 .photo-cv {
-    left: 0;
-    padding: 60px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
+
 #footer {
     margin: 0;
     padding: 0;
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: auto;
     height: 5%;
     width: 100%;
     background-color: #a3c2aa;
     color: #fff;
+}
+
+.left-column {
+    float: left;
+    width: 30%;
+}
+
+.right-column {
+    float: left;
+    width: 70%;
+}
+
+.contacts,
+.about,
+.education {
+    margin-left: 10%;
+}
+
+.about {
+    text-align: justify;
+}
+
+.work-experience,
+.skills,
+.languages,
+.code-examples {
+    margin-left: 20%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }
