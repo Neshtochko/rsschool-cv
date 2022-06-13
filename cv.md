@@ -32,7 +32,7 @@ Quality Assurance Engineer with commercial experience in testing. My working bac
 ### Education:
 * 2004-2009 College of Architecture and Construction (Industrial and Civil Engineering )
 * 2009 -2012 Belarusian-Russian University (Industrial and Civil Engineering)
-* 2009  Mela Rossa IT School (Software testing)
+* 2019  Mela Rossa IT School (Software testing)
 
 ### English:
 * Listening: B2
