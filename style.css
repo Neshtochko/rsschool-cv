@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Abel-Regular";
+    src: url("assets/fonts/Abel-Regular.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: "Abel-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #213341;
+    background-color: #f4f7fc;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #049CB3;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #213341;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 30px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+
+.section-title {
+    color: #049CB3;
+    text-transform: uppercase;
+}
+
+.link {
+    color: #049CB3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #213341;
+}
+
+.personal-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+header {
+    background-color: #dfe7f2;
+}
+
+footer {
+    background-color: #dfe7f2;
+}
+
+.school-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.footer-data {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-item {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #049CB3;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: 18px;
+}
+#profile, #contacts, #work, #about, #education, #languages, #code, #skills {
+    border-bottom: 1px solid #0f3c5f;
+}
